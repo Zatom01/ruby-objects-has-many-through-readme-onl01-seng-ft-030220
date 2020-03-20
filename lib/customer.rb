@@ -14,11 +14,11 @@ class Customer
     meal=Meal.new(waiter, self, total, tip)
   end
   
-  def meals
-    meal.all.select do |meal|
-      meal.customer==self 
-    end 
-  end 
+  # def meals
+  #   meal.all.select do |meal|
+  #     meal.customer==self 
+  #   end 
+  # end 
     
   
 end
