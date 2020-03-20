@@ -10,5 +10,7 @@ class Meal
     @tip=tip
     
     @@all << self 
+  end 
+  
 
 end
